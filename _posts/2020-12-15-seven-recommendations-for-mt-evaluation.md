@@ -20,7 +20,7 @@ to learn about them.
 Then there are other aspects of MT evaluation that I feel are not getting the attention and care they deserve. To give just one example: many papers on
 low-resource MT work with artificial data sets. This may hamper scientific progress in our field, since the conclusions drawn from experiments on realistic
 low-resource
-data sets could have been different. But then, there is not set of recommendations for low-resource MT or standard methodology, so I believe there is a lot
+data sets could have been different. But then, there is no set of recommendations for low-resource MT or standard methodology, so I believe there is a lot
 of uncertainty about them among authors and reviewers. 
 
 In the blog posts below, I tried to address both: highlight existing efforts to establish best practices MT evaluation, and areas where I think best practices are
