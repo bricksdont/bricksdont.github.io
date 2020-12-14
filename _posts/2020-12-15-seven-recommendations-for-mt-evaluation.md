@@ -26,16 +26,15 @@ of uncertainty about them among authors and reviewers.
 In the blog posts below, I tried to address both: highlight existing efforts to establish best practices MT evaluation, and areas where I think best practices are
 currently missing, but would be needed as well. As an overview, I am listing all recommendations here, with links to individual posts.
 
-Recommendations (with links to individual posts)
-================================================
+Recommendations
+===============
 
 1. [When reporting BLEU scores, compute with translations that are fully postprocessed, and pristine references that have not been tampered with at all.
 Leave tokenization to the standardized BLEU tool.](https://bricksdont.github.io/posts/2020/12/computing-and-reporting-bleu-scores/)
 
-2. [Train several models of the same kind with different random seeds, at least for the baseline. Report and discuss the resulting variance. When discussing
-"gains" over the baseline, compare to the standard deviation caused by randomness alone.](https://bricksdont.github.io/posts/2020/12/single-training-runs/)
+2. [Train several models of the same kind with different random seeds. Report and discuss the resulting variance.](https://bricksdont.github.io/posts/2020/12/single-training-runs/)
 
-3. [Work on realistic low-resource data sets instead of simulated ones. Think of low-resourcedness as more than a data problem only.](https://bricksdont.github.io/posts/2020/12/simulating-low-resource/)
+3. [Work on realistic low-resource data sets instead of simulated ones.](https://bricksdont.github.io/posts/2020/12/simulating-low-resource/)
 
 4. [Use the most recent training and test sets available for a particular language pair and domain.](https://bricksdont.github.io/posts/2020/12/using-old-data/)
 
