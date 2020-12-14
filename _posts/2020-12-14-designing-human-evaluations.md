@@ -32,12 +32,12 @@ interface looked like this:
 
 So, this evaluation shows translations sentence-by-sentence. But then there are also language pairs for which a document-level evaluation was performed:
 
-![WMT 19 sentence-level human evaluation interface](/images/designing-human-evaluations-2.png){: .align-center}
+![WMT 19 document-level human evaluation interface](/images/designing-human-evaluations-2.png){: .align-center}
 
 Why also have this document-level evaluation? [Läubli et al. (2018)](https://www.aclweb.org/anthology/D18-1512.pdf) found that while it was true that humans had no preference for human translation over
 MT output if they evaluate on segment-level, they clearly prefer human translation in a document-level evaluation:
 
-![WMT 19 sentence-level human evaluation interface](/images/designing-human-evaluations-3.png){: .align-center}
+![Figure taken from Läubli et al. (2018)](/images/designing-human-evaluations-3.png){: .align-center}
 
 Other works by, among other people, my colleague Samuel Läubli, Sheila Castilho and Antonio Toral have identified many other factors that impact human
 evaluation, such as:
