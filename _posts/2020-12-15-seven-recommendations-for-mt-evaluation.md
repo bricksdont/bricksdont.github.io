@@ -29,8 +29,8 @@ currently missing, but would be needed as well. As an overview, I am listing all
 Recommendations
 ===============
 
-1. [When reporting BLEU scores, compute with translations that are fully postprocessed, and pristine references that have not been tampered with at all.
-Leave tokenization to the standardized BLEU tool.](https://bricksdont.github.io/posts/2020/12/computing-and-reporting-bleu-scores/)
+1. When reporting BLEU scores, compute with translations that are fully postprocessed, and pristine references that have not been tampered with at all.
+Leave tokenization to the standardized BLEU tool. ([Link](https://bricksdont.github.io/posts/2020/12/computing-and-reporting-bleu-scores/))
 
 2. [Train several models of the same kind with different random seeds. Report and discuss the resulting variance.](https://bricksdont.github.io/posts/2020/12/single-training-runs/)
 
