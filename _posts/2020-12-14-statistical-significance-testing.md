@@ -42,7 +42,8 @@ I concede that there are situations where significance testing for MT is useful,
 
 ![sigtest decision chart](/images/statistical-significance-testing-1.png){: .align-center}
 
-If several training runs and human evaluation are not feasible, then using significance tests may well be the best thing to do.
+If several training runs and human evaluation are not feasible, then using a significance test for automatic estimates of translation quality
+may well be the best thing to do.
 
 Recommendation
 ==============
