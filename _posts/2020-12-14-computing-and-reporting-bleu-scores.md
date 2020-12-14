@@ -19,16 +19,14 @@ Not all BLEU scores are created equal. There are plenty of ways in which the aut
 
 There are various ways in which BLEU scores can be computed, and ways to choose the exact inputs used for this computation. Before we dive into this let me introduce some helpful terminology:
 
-{% highlight scss %}
-Hypothesis: Translation produced by an MT system, as a string
-Reference: Gold-standard, in most cases human translation, as a string
-{% endhighlight %}
+> **Hypothesis**: Translation produced by an MT system, as a string
+> **Reference**: Gold-standard, in most cases human translation, as a string
 
 BLEU is a **corpus-level metric**: it requires the entire test corpus at once. Still, corpora must be segmented into individual sentences. Another way of saying this is that tools that compute BLEU take as inputs a list of hypothesis sentences, and a corresponding list of reference sentences.
 
 Since BLEU internally collects **ngram statistics**, it is obvious that a hypothesis or reference string should be tokenized or segmented (depending on the language). To understand why, consider the following example:
 
-    Hypothesis: A cat sat on the mat.
+> **Hypothesis**: A cat sat on the mat.
 
 If we were to collect ngrams from this sentence without tokenization, then `(the, mat.)` (with a `.`) would be one of the bigrams. That would clearly be unintended. Given that tokenization is required, it is only natural to ask questions such as:
 
