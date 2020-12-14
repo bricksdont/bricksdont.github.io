@@ -9,9 +9,6 @@ tags:
   - bleu
 ---
 
-Computing and reporting BLEU scores
-======
-
 BLEU scores are ubiquitous in MT research and they usually appear in tables that look like this:
 
 ![Basic example of BLEU table](/images/computing-and-reporting-bleu-scores-1.png)
@@ -20,10 +17,12 @@ Now, can we conclude from this table that the system proposed by the authors bea
 
 Not all BLEU scores are created equal. There are plenty of ways in which the authors could have arrived at a seemingly innocent final BLEU score of `37.4`. Next, we will explore some of the reasons.
 
-There are various ways in which BLEU scores can be computed, and ways to choose the exact inputs used for this compu`tation. Before we dive into this let me introduce some helpful terminology:
+There are various ways in which BLEU scores can be computed, and ways to choose the exact inputs used for this computation. Before we dive into this let me introduce some helpful terminology:
 
-    Hypothesis: Translation produced by an MT system, as a string
-    Reference: Gold-standard, in most cases human translation, as a string
+```
+Hypothesis: Translation produced by an MT system, as a string
+Reference: Gold-standard, in most cases human translation, as a string
+```
 
 BLEU is a **corpus-level metric**: it requires the entire test corpus at once. Still, corpora must be segmented into individual sentences. Another way of saying this is that tools that compute BLEU take as inputs a list of hypothesis sentences, and a corresponding list of reference sentences.
 
