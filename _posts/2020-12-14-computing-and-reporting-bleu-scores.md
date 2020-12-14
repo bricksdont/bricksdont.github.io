@@ -102,3 +102,9 @@ messages of the WMT 2020 Metrics Task is that for translation to English, there 
 
 However, the metrics task also showed that BLEU is really bad at telling the difference between high-quality MT outputs and high-quality human translations.
 Embedding-based metrics such as COMET ([Rei et al., 2020](https://www.aclweb.org/anthology/2020.emnlp-main.213/)) appear to have a distinct advantage here.
+
+**Q: The default tokenizer in SacreBLEU is basically useless for my target language. What can I do?**
+
+A: If there is a tokenizer elsewhere, you could try and contribute it to SacreBLEU. That would help with standardized evaluation for this language in the future.
+If there is no tokenization at all (as is the case for many languages), a character-based evaluation metric would be a viable alternative to BLEU. I would recommend
+using CHRF(++) ([Popovic, 2017](https://www.statmt.org/wmt17/pdf/WMT70.pdf)).

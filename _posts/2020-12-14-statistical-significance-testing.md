@@ -38,6 +38,11 @@ seed? For your convenience I did a quick test - the [code and results are av
 outcome is: one of the systems is superior with `p=0.03` , which is
 worrying given that so often `p<0.05` is described as as a meaningful cutoff.
 
+I concede that there are situations where significance testing for MT is useful, if other methods are not feasible. Imagine a decision chart such as this one:
+
+![sigtest decision chart](/images/statistical-significance-testing-1.png){: .align-center}
+
+If several training runs and human evaluation are not feasible, then using paired bootstrap may well be the best thing to do.
 
 Recommendation
 ==============
@@ -54,3 +59,9 @@ FAQ
 
 Yes, that is true. But in MT at least, several tests (including paired bootstrap and approximate randomization) appear to lead to the same conclusions
 ([Graham et al., 2014](https://www.aclweb.org/anthology/W14-3333/)).
+
+**Q: I would like to use significance tests properly, but they are not integrated into any popular toolkit or framework I know.**
+
+There have been several attempts already to integrate bootstrap resampling into SacreBLEU, but unfortunately, none of them made it into master so far.
+Other than that, sadly, there are no good options here except [slow, isolated scripts](https://raw.githubusercontent.com/bricksdont/util-scripts/master/paired-bootstrap.py)
+or in [outdated frameworks](https://github.com/jhclark/multeval).
