@@ -1,5 +1,5 @@
 ---
-title: 'Computing and reporting BLEU scores'
+title: 'Simulating low-resource experiments'
 date: 2020-12-14
 permalink: /posts/2020/12/simulating-low-resource/
 tags:

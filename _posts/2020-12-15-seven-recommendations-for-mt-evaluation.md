@@ -29,22 +29,24 @@ currently missing, but would be needed as well. As an overview, I am listing all
 Recommendations (with links to individual posts)
 ================================================
 
-1. When reporting BLEU scores, compute with translations that are fully postprocessed, and pristine references that have not been tampered with at all.
-Leave tokenization to the standardized BLEU tool.
+1. [When reporting BLEU scores, compute with translations that are fully postprocessed, and pristine references that have not been tampered with at all.
+Leave tokenization to the standardized BLEU tool.](https://bricksdont.github.io/posts/2020/12/computing-and-reporting-bleu-scores/)
 
-2. Train several models of the same kind with different random seeds, at least for the baseline. Report and discuss the resulting variance. When discussing
-"gains" over the baseline, compare to the standard deviation caused by randomness alone.
+2. [Train several models of the same kind with different random seeds, at least for the baseline. Report and discuss the resulting variance. When discussing
+"gains" over the baseline, compare to the standard deviation caused by randomness alone.](https://bricksdont.github.io/posts/2020/12/single-training-runs/)
 
-3. Work on realistic low-resource data sets instead of simulated ones. Think of low-resourcedness as more than a data problem only.
+3. [Work on realistic low-resource data sets instead of simulated ones. Think of low-resourcedness as more than a data problem only.](https://bricksdont.github.io/posts/2020/12/simulating-low-resource/)
 
-4. Use the most recent training and test sets available for a particular language pair and domain.
+4. [Use the most recent training and test sets available for a particular language pair and domain.](https://bricksdont.github.io/posts/2020/12/using-old-data/)
 
-5. Don't rely too much on statistical significance testing for BLEU results. Focus on gains in automatic translation quality beyond standard deviation, or
-ideally human evaluation.
+5. [Don't rely too much on statistical significance testing for BLEU results. Focus on gains in automatic translation quality beyond standard deviation, or
+ideally human evaluation.](https://bricksdont.github.io/posts/2020/12/statistical-significance-testing/)
 
-6. When designing your human evaluation, follow current best practices, for instance the ones laid out in [Läubli et al. (2020)](https://jair.org/index.php/jair/article/view/11371/26573).
+6. [When designing your human evaluation, follow current best practices, for instance the ones laid out
+in Läubli et al. (2020).](https://bricksdont.github.io/posts/2020/12/designing-human-evaluations/)
 
-7. Do not succumb to the urge of ignoring best practices just for the sake of comparing to previous work.
+7. [Do not succumb to the urge of ignoring best practices just for the sake of comparing to
+previous work.](https://bricksdont.github.io/posts/2020/12/comparing-to-previous-work/)
 
 High-level summary and way forward
 ===========
