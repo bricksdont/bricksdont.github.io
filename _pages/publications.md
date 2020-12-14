@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-For now, please refer to my university page here: https://www.cl.uzh.ch/de/people/team/compling/mmueller.html
+For now, please refer to my [university page](https://www.cl.uzh.ch/de/people/team/compling/mmueller.html).
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
