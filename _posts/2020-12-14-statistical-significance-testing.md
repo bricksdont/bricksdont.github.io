@@ -34,7 +34,7 @@ the difference might not be due to the "treatment" applied (e.g. increase number
 
 Anecdotally, many people have found that in all but few cases, paired bootstrap reports that there is a difference between systems. It is possible that this is
 precisely because of variation caused by random seeds. In other words, what happens if paired bootstrap is comparing two models that differ only in their random
-seed? For your convenience I did a quick test - the [code and results are available](https://github.com/bricksdont/sockeye-toy-models/tree/bootsTRAP). The main
+seed? For your convenience I did a quick test --- the [code and results are available](https://github.com/bricksdont/sockeye-toy-models/tree/bootsTRAP). The main
 outcome is: one of the systems is superior with `p=0.03` , which is
 worrying given that so often `p<0.05` is described as as a meaningful cutoff.
 
