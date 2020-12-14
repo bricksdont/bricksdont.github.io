@@ -1,5 +1,5 @@
 ---
-title: 'Computing and reporting BLEU scores'
+title: 'Single training runs and estimates of variance'
 date: 2020-12-14
 permalink: /posts/2020/12/single-training-runs/
 tags:
