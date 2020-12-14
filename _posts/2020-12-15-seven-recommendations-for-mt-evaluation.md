@@ -39,7 +39,7 @@ Recommendations
 
 4. [Use the most recent training and test sets available for a particular language pair and domain.](https://bricksdont.github.io/posts/2020/12/using-old-data/)
 
-5. [Don't rely too much on statistical significance testing for BLEU results. Focus on gains in automatic translation quality beyond standard deviation, or
+5. [Don't rely too much on statistical significance testing for automatic metrics. Focus on gains in automatic translation quality beyond standard deviation, or
 ideally human evaluation.](https://bricksdont.github.io/posts/2020/12/statistical-significance-testing/)
 
 6. [When designing your human evaluation, follow current best practices, for instance the ones laid out

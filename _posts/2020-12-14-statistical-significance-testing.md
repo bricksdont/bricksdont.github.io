@@ -42,7 +42,7 @@ worrying given that so often `p<0.05` is described as as a meaningful cutoff.
 Recommendation
 ==============
 
-Don't rely too much on statistical significance testing for BLEU results.
+Don't rely too much on statistical significance testing for metrics of translation quality.
 Focus on gains in automatic translation quality beyond standard deviation, or ideally human evaluation.
 
 FAQ
