@@ -60,6 +60,8 @@ Recommendation
 
 Work on realistic low-resource data sets instead of simulated ones. Think of low-resourcedness as more than a data problem only.
 
+<hr style="border:2px solid gray">
+
 FAQ
 ===
 

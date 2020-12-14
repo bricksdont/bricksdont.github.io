@@ -72,6 +72,8 @@ When discussing "gains" over the baseline, compare to the standard deviation cau
 
 Be extra careful if your MT systems are used in out-of-distribution settings such as for zero-shot translation or under domain shift.
 
+<hr style="border:2px solid gray">
+
 FAQ
 ===
 

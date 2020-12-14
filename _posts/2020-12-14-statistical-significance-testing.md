@@ -45,6 +45,8 @@ Recommendation
 Don't rely too much on statistical significance testing for metrics of translation quality.
 Focus on gains in automatic translation quality beyond standard deviation, or ideally human evaluation.
 
+<hr style="border:2px solid gray">
+
 FAQ
 ===
 

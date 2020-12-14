@@ -84,6 +84,8 @@ Recommendation
 
 When reporting BLEU scores, compute with translations that are fully postprocessed, and pristine references that have not been tampered with at all. Leave tokenization to the standardized BLEU tool.
 
+<hr style="border:2px solid gray">
+
 FAQ
 ===
 
