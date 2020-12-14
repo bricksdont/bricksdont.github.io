@@ -71,3 +71,17 @@ Train several models of the same kind with different random seeds, at least for 
 When discussing "gains" over the baseline, compare to the standard deviation caused by randomness alone.
 
 Be extra careful if your MT systems are used in out-of-distribution settings such as for zero-shot translation or under domain shift.
+
+FAQ
+===
+
+**Q: Isn't training several models with different random seeds even more expensive than it already is? What about the environment?**
+
+A: Yes, several training runs are more expensive and have a higher environmental impact than single runs. Still, there is also a cost attached to tricking ourselves
+into thinking we have achieved progress when we have not.
+
+**Q: Is neural network training really deterministic, even if a fixed RNG seed is used?**
+
+No, most likely it isn't. I am specifically saying that if the seed is fixed, the behaviour of (only) the RNG is deterministic. Other aspects of the training
+procedure can still be non-deterministic, such as [summing values on GPU with Tensorflow](https://stackoverflow.com/questions/50744565/how-to-handle-non-determinism-when-training-on-a-gpu). We've seen cases where training runs with identical random seeds
+become divergent.

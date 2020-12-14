@@ -83,3 +83,20 @@ Recommendation
 ==============
 
 When reporting BLEU scores, compute with translations that are fully postprocessed, and pristine references that have not been tampered with at all. Leave tokenization to the standardized BLEU tool.
+
+FAQ
+===
+
+**Q: There is also the sentence-bleu metric which works on sentence level instead of corpus level?**
+
+A: BLEU is really only defined at the corpus level. For an individual sentence, BLEU is very often 0.0 , because none of the higher-order ngrams are also in the
+reference sentence. There are smoothed variants of BLEU to avoid this ([Chen and Cherry, 2014](https://www.aclweb.org/anthology/W14-3346.pdf)). However, those smoothing techniques introduce subtle biases that
+may be hard to notice (e.g. [Nakov et al., 2012](https://www.aclweb.org/anthology/C12-1121.pdf)).
+
+**Q: Why still explain the correct use of BLEU when it is very old and does not correlate well with human judgements anyway?**
+
+A: It is not true that other, newer metrics outperform BLEU consistently when it comes to system-level correlation with human judgement. For instance, one of key
+messages of the WMT 2020 Metrics Task is that for translation to English, there is no compelling evidence that any metric outperforms BLEU in a consistent manner.
+
+However, the metrics task also showed that BLEU is really bad at telling the difference between high-quality MT outputs and high-quality human translations.
+Embedding-based metrics such as COMET ([Rei et al., 2020](https://www.aclweb.org/anthology/2020.emnlp-main.213/)) appear to have a distinct advantage here.

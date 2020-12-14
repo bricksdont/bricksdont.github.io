@@ -59,3 +59,10 @@ Recommendation
 ==============
 
 Work on realistic low-resource data sets instead of simulated ones. Think of low-resourcedness as more than a data problem only.
+
+FAQ
+===
+
+**Q: Isn't training models with different subsets of my training data useful to see impact of adding data?**
+
+A: Yes it is. But do not call it a "low-resource experiment". Call it a "high-resource experiment where some training data was withheld".
