@@ -78,3 +78,8 @@ Outside machine translation, there seems to be even more confusion about BLEU as
 SacreBLEU is currently the de-facto standard for computing and reporting BLEU scores. If you are the author of a paper and intend to show BLEU results, I recommend that you use SacreBLEU. If you are reviewing a paper that a) uses a now-deprecated tool such as multi-bleu.perl from Moses or b) does not clarify how and on which data exactly BLEU scores were computed, point this out in your review.
 
 Little-known fact: the SacreBLEU paper was initially rejected from ACL -- [which Matt Post was grumpy about for a short while](http://matt.waypost.net/research.html#machine-translation). On the plus side, the poster used for the WMT session where it was eventually accepted was a [rarely-seen hand-drawn comic strip](https://www.aclweb.org/anthology/attachments/W18-6319.Poster.pdf)!
+
+Recommendation
+==============
+
+When reporting BLEU scores, compute with translations that are fully postprocessed, and pristine references that have not been tampered with at all. Leave tokenization to the standardized BLEU tool.
