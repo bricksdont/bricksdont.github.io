@@ -63,7 +63,8 @@ Published results are hard to reproduce because the source code is not always av
 If authors do publish code, the next problem is that by "releasing code" what many people mean is releasing the library used to train
 the particular models in a paper. What is almost never released is the workflow, scripts etc. necessary to reproduce the actual experiments.
 As a consequence, reproducibility experiments are rarely undertaken in our field.
-Issues like these are an impediment to scientific progress and perhaps worth exploring in a different post.
+
+Issues like these are an impediment to scientific progress and perhaps worth exploring in future blog posts.
 
 <hr style="border:2px solid gray">
 
