@@ -9,7 +9,9 @@ tags:
   - recommendations
 ---
 
-Evaluating machine translation systems is not as obvious as it seems on first glance. I know this from countless discussions with fellow researchers.
+Evaluating machine translation systems is not as obvious as it seems on first glance.
+
+I know this from countless discussions with fellow researchers.
 From countless Twitter feuds I also know that subtle things about MT evaluation are very hard to explain. I am dissatisfied with my Twitter-length answers,
 and that is the reason for writing a series of blog posts. What you are reading now is a summary of all those posts, with pointers to each of them.
 
