@@ -21,10 +21,12 @@ Then there are other aspects of MT evaluation that I feel are not getting the at
 low-resource MT work with artificial data sets. This may hamper scientific progress in our field, since the conclusions drawn from experiments on realistic
 low-resource
 data sets could have been different. But then, there is no set of recommendations for low-resource MT or standard methodology, so I believe there is a lot
-of uncertainty about them among authors and reviewers. 
+of uncertainty about it among authors and reviewers. 
 
 In the blog posts below, I tried to address both: highlight existing efforts to establish best practices MT evaluation, and areas where I think best practices are
-currently missing, but would be needed as well. As an overview, I am listing all recommendations here, with links to individual posts.
+currently missing, but would be needed as well.
+
+As an overview, I am listing all recommendations here, with links to individual posts.
 
 Recommendations
 ===============
