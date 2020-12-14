@@ -68,17 +68,6 @@ Issues like these are an impediment to scientific progress and perhaps worth exp
 
 <hr style="border:2px solid gray">
 
-Acknowledgements
-================
-
-I am indebted to Marcin Junczys-Dowmunt who frequently tweets calls to reason in MT research. For a long time I suggested he turn his tweets into blog posts ---
-which I now have done for him. :-)
-
-Thanks also to Bram Vanroy and other people with whom I have sparred on Twitter for inspiring me to write this post.
-
-Thanks to the wonderful people who somehow --- while also doing awesome research --- found time to read an early version of those posts and helped to improve them considerably:
-Annette Rios, Marcin Junczys-Dowmunt, Nitika Mathur, Samuel Läubli, Rico Sennrich, Julia Kreutzer, Noëmi Aepli and Matt Post.
-
 FAQ
 ===
 
@@ -93,3 +82,14 @@ first stone, and some of the stones in this post I am casting on myself.
 **Q: What can I do as an author if reviewers threaten to reject my paper if I do not play by their rules?**
 
 A: Be steadfast, explain in a calm manner, flag for area chair attention if you believe you are treated unfairly.
+
+Acknowledgements
+================
+
+I am indebted to Marcin Junczys-Dowmunt who frequently tweets calls to reason in MT research. For a long time I suggested he turn his tweets into blog posts ---
+which I now have done for him. :-)
+
+Thanks also to Bram Vanroy and other people with whom I have sparred on Twitter for inspiring me to write this post.
+
+Thanks to the wonderful people who somehow --- while also doing awesome research --- found time to read an early version of those posts and helped to improve them considerably:
+Annette Rios, Marcin Junczys-Dowmunt, Nitika Mathur, Samuel Läubli, Rico Sennrich, Julia Kreutzer, Noëmi Aepli and Matt Post.
