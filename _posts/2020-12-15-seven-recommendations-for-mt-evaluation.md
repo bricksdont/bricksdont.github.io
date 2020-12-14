@@ -46,22 +46,22 @@ in Läubli et al. (2020).](https://bricksdont.github.io/posts/2020/12/designing-
 7. [Do not succumb to the urge of ignoring best practices just for the sake of comparing to
 previous work.](https://bricksdont.github.io/posts/2020/12/comparing-to-previous-work/)
 
-High-level summary and way forward
+Way forward
 ===========
 
-Basically, we are routinely tricking ourselves and others into thinking that we achieve scientific progress, when in fact we did not.
-And this is on top of the fact that BLEU is of course not a perfect substitute for the opinions and perceptions of humans!
-
-There are some broader issues that ail our field, in my view. Perhaps some of those are worth exploring in a different post.
-Consider as an example the plight of reproducibility: published results are hard to reproduce because the source code is not always available.
-
-If authors do publish code, the next problem is that by "releasing code" what many people mean is releasing the library used to train
-the particular models in a paper. What is almost never released is the workflow, scripts etc. necessary to reproduce the actual experiments.
-And even if all of this is available, reproducibility experiments are rarely undertaken in our field. And even if all of that is given, the data
-used might not be open-source! Issues like these are an impediment to scientific progress.
+Basically, we are routinely tricking ourselves and others into thinking that we achieve scientific progress, when in fact we do not. I think that a small step
+forward would be to establish further best practices and standardized methodology, and make them easily accessible.
 
 In any case, I think that we ought to do better in the future. I will certainly hold myself (and people who have the questionable honor of being
 reviewed by me) to very high standards for ongoing and future experiments.
+
+There are some broader issues that ail our field, in my view. For instance, I consider **reproducibility** to be an unsolved problem at the moment.
+Published results are hard to reproduce because the source code is not always available.
+
+If authors do publish code, the next problem is that by "releasing code" what many people mean is releasing the library used to train
+the particular models in a paper. What is almost never released is the workflow, scripts etc. necessary to reproduce the actual experiments.
+As a consequence, reproducibility experiments are rarely undertaken in our field.
+Issues like these are an impediment to scientific progress and perhaps worth exploring in a different post.
 
 FAQ
 ===
@@ -87,5 +87,5 @@ which I now have done for him. :-)
 
 Thanks also to Bram Vanroy and other people with whom I have sparred on Twitter for inspiring me to write this post.
 
-Thanks to the wonderful people who somehow --- while also doing awesome research --- found time to read an early version of this post and helped to improve it:
+Thanks to the wonderful people who somehow --- while also doing awesome research --- found time to read an early version of those posts and helped to improve them considerably:
 Annette Rios, Marcin Junczys-Dowmunt, Nitika Mathur, Samuel Läubli, Rico Sennrich, Julia Kreutzer, Noëmi Aepli and Matt Post.
