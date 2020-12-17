@@ -73,6 +73,10 @@ Issues like these are an impediment to scientific progress and perhaps worth exp
 FAQ
 ===
 
+**Q: I think you are wrong about X.**
+
+A: There is a good chance I am, in fact, wrong about this. Any suggestion or comment is welcome, reach me on Twitter or by email.
+
 **Q: I found your paper X that does not actually follow your best practices! How is that possible?**
 
 A: I anticipate that some people will point out that I myself did not always adhere to those practices in my own publications. I am well aware of this, and it's
